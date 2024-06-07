@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reminder Management Application README</title>
+</head>
+<body>
     <header>
         <h1>Reminder Management Application</h1>
     </header>
@@ -64,3 +72,5 @@
     <footer>
         <p>© 2023 Reminder Management Application</p>
     </footer>
+</body>
+</html>
