@@ -1,37 +1,42 @@
-# assignment-6-base
-<html>
-<head>Creation of the reminder application</head>
+Reminder Management Application
+Overview
+This Reminder Management Application is designed to help users create, display, and manage reminders efficiently. It utilizes modern JavaScript features, including ES6 classes, to encapsulate behaviors associated with reminders. The application showcases a strong example of Object-Oriented Programming (OOP) principles, making extensive use of classes, encapsulation, and methods to interact with the DOM and manage state.
 
-<h1> The reminder application needs to developed using HTML , css, scss, javascript</h1>
-<body>
-<p> Create the folder structure using vscode and start the implementing the assignment   </p>
-<p> install node packages to the folder to execute the scss file</p>
-<p> create a json file and add data so that the data can be used to populate the paage</p>
-<p> HTML , CSS, SCSS,json,javascript file is created to implement the assignment - reminder application </p>
-<p> Javascript is used to create HTML DOM, logic of check and uncheck and append user input to the array</p>
-<p> The user has the ability to create hide and unhide the reminder, also the user can mark the reminder as complete</p>
-<p> Javascript commands like getelementid, classlist , add , remove, toggle , createlement , function are usef for the creation of the application</p>
-<P> User requirements</p> 
-<ol>
-    <li>As a user, I should be able to see all existing reminders fetched from the JSON file using an XHR object.</li>
-    <li>As a user, I should be able to click a reminder item and able to see its detailed view.</li>
-    <li>As a user, I should be able to open add a new reminder by clicking the add button and this need not be persisted (not required to save it on the server).</li>
-    <li>As a user, I should be able to add a reminder by entering the Name, description, and time.</li>
-    <li>As a user, I should be able to mark a reminder as complete by clicking a complete checkbox (not available on the mock).</li>
-</ol>
-<P> Technical Requirements</p> 
-<ol>
-    <li>The goal of this assignment is to learn about JavaScript</li>
-    <li>Should use SCSS for styles.</li>
-    <li>Should document your code extensively.</li>
-    <li>Should have .gitignore, and ReadMe.md files.</li>
-    <li>The ReadMe.md file should have the project description and the instructions to run the project.</li>
-    <li>No JavaScript & CSS libraries should be used for this assignment.</li>
-    <li>You do not need to save the changes made on UI to a JSON file.</li>
-</ol>
-<p> Run the project using VS code by starting the live server and the user can start adding reminders </p>
-<p> Please the application image below </p>
-</body>
-</html>
+Features
+Create Reminders: Users can add new reminders with details such as the title, description, and specific time.
+Display Reminders: Each reminder is displayed in a visually distinct block that shows its details and status.
+Dynamic Interaction: Users can interact with reminders to toggle their details, mark them as complete, or see more information.
+Local Data Fetching: Loads reminder data from a local JSON file to populate the application's UI upon startup.
+Responsive Design: Implements basic styling to ensure that the application is usable across various devices and screen sizes.
+Technical Description
+The application is structured around two main classes:
 
-<img width="1265" alt="Screenshot 2023-02-22 164119" src="https://user-images.githubusercontent.com/114561628/220765679-54e677bf-04b8-46c6-81e0-9bb79c1625fd.png">
+Reminder Class:
+
+Handles the creation of reminder elements in the DOM.
+Manages individual reminder interactions such as marking as complete and toggling visibility of details.
+Each reminder is an instance of this class, encapsulating all related properties and methods.
+App Class:
+
+Manages the overall application state.
+Responsible for fetching initial data and integrating new reminders into the application.
+Handles UI interactions for adding new reminders and closing the reminder addition form.
+Methodology
+OOP Principles: The use of classes and encapsulation allows for clean and maintainable code structure.
+DOM Manipulation: Directly interacts with the Document Object Model (DOM) to reflect changes in the application's state.
+Event Handling: Uses event listeners to handle user interactions like clicks, enabling dynamic functionality within the application.
+Setup and Running
+To run the application:
+
+Clone the repository to your local machine.
+Open the index.html file in a modern web browser.
+Interact with the pre-loaded data or add new reminders as needed.
+Future Enhancements
+Persistence: Integrate with local storage or a backend database to save and retrieve reminders.
+Notification System: Add a system to alert users when reminders are due.
+User Accounts: Implement user authentication to manage personal reminders.
+Contributions
+Contributions are welcome! If you'd like to improve the application or suggest new features, please fork the repository and submit a pull request.
+
+License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
