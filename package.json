@@ -1,0 +1,22 @@
+{
+  "name": "assignment-6-nihil27011996",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx sass style/main.scss dist/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info-6150-spring-2023/assignment-6-nihil27011996.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info-6150-spring-2023/assignment-6-nihil27011996/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info-6150-spring-2023/assignment-6-nihil27011996#readme",
+  "dependencies": {
+    "sass": "^1.58.3"
+  }
+}

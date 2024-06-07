@@ -1,0 +1,114 @@
+//formatting container
+.main-reminder-name-container {
+  display: flex;
+}
+//formatting add container
+.add {
+  background-color: #e2f2da;
+  width: 50px;
+}
+//formatting changing the intial size on click
+.expand {
+  background-color: #e2f2da;
+  width: 50%;
+}
+//Formating the input box
+.right-title {
+  margin-left: 160px;
+}
+
+.right-details {
+  margin-left: 230px;
+}
+
+.right-date {
+  margin-left: 100px;
+}
+
+.main-container {
+  display: flex;
+  height: 100%;
+}
+
+.main-reminder-container {
+  text-align: center;
+  width: 100%;
+}
+
+.reminder-container {
+  text-align: center;
+  width: 100%;
+}
+
+.add-reminder > div {
+  padding-top: 30px;
+}
+
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.add-reminder-container {
+  width: 200px;
+  height: 200px;
+  //background-color: rgb(255,255,0);
+  margin: auto;
+  border-radius: 20px;
+  color: whitesmoke;
+  text-align: left;
+}
+
+.increase {
+  width: 300px;
+  height: 300px;
+  background-color: green;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.reminder-detail {
+  margin-top: 50px;
+}
+
+.reminder-time {
+  margin-top: 30px;
+}
+
+.reminder-name {
+  margin-top: 10px;
+}
+//grid layout class with 3 rows
+.grid-container {
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.add-reminder {
+  margin-top: 20px;
+}
+
+//error handler color
+.invalid {
+  border: 3px solid red;
+}
+//formation the button class color and radius
+.button {
+  background-color: #d8eeee;
+  border-radius: 10px;
+}
+//formation the button add
+.button-add {
+  margin-top: 50px;
+}
+//formation the button done
+.button-done {
+  margin-top: 50px;
+  margin-left: 300px;
+}

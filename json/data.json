@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "RName": "Doctor Apointment",
+      "Details": "Meet PCP at the Boston Facility",
+      "Time": "2023/02/15T02:56",
+      "Status": "Incompleted"
+    },
+    {
+      "id": 2,
+      "RName": "Salon Apointment",
+      "Details": "Meet at the Boston Facility",
+      "Time": "2023/02/16T02:56",
+      "Status": "Completed"
+    },
+    {
+      "id": 3,
+      "RName": "Assignment Apointment",
+      "Details": "Meet at the Boston Facility",
+      "Time": "2023/02/17T02:56",
+      "Status": "Incompleted"
+    }
+  ]
+}
